@@ -24,6 +24,7 @@ exports.handler = async (event, context) => {
       functionName: context.functionName,
       SNS_Message: `Message ${sns_message} sent at ${date}`,
       SNS_Subject: 'New message from publisher',
+      New_Property: 'Foo bar'
     };
 
     // Params object for SNS
